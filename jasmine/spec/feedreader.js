@@ -58,7 +58,7 @@ $(function() {
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
-        it('is hidden by deafault', function(){
+        it('is hidden by default', function(){
             expect($('body').hasClass('menu-hidden')).toBeTruthy();
         });
          /* TODO: Write a test that ensures the menu changes
@@ -117,5 +117,5 @@ $(function() {
             expect(feed1).not.toBe(feed2);
         });
     });
-    
+
 }());
